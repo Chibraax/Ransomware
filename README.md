@@ -27,7 +27,7 @@ Only works on windows
   
   6- Change wallpaper with a dirty buffoon
   
-  7- Check if the ransom file is in our folder 
+  7- Send the ransomware file into our folder
   
   8- Add/Check the key in the registre for launch ransom every time victim turn on computer
   
