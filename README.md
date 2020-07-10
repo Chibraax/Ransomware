@@ -4,6 +4,8 @@ Ransomware written in Python3.8
 
 Only works on windows
 
+Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','gif','html','ico','mp3','mp4','odt','odp','ods','odg','pdf','ppt','pps','pptx','py','zip','tar','md','xls','xlsx','wav','xml','log','exe']
+
 # Dependencies : 
   
   Cryptography
@@ -49,5 +51,16 @@ Only works on windows
 
   Delete encrypted files
   
+  
+  
+# Weekness 
+
+  Pretty slow to encrypt big data
+  
+  Internet connection is fundamental
+  
+  Can't spread throught a network
+  
+  If encrypted files are moved or renamed, decryption will probably fail 
   
   
