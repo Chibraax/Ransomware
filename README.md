@@ -6,7 +6,9 @@ Only works on windows
 # Dependencies : 
   
   Cryptography
+  
   PIL
+  
   pyperclip
   
  
