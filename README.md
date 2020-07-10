@@ -1,5 +1,6 @@
-# Ransomware
-Simply Ransomware written in Python3.8
+# Bad Buffoon
+
+Ransomware written in Python3.8
 Only works on windows
 
 # Dependencies : 
@@ -38,6 +39,7 @@ Only works on windows
 # If decryption key is right :
 
   1- Decrypt files and rename them without '.encrypted'
+  
   2- Delete our folder and delete the key in the registre 
   
 # If victim cross the deadline : 
