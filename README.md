@@ -1,4 +1,4 @@
-# Bad Buffoon
+# Ransomware Bad Buffoon
 
 Ransomware written in Python3.8
 
