@@ -1,6 +1,6 @@
 # Ransomware Bad Buffoon
 
-Ransomware written in Python3.8
+Ransomware written in Python3.x
 
 Only works on windows
 
