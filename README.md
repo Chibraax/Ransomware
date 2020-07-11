@@ -36,7 +36,7 @@ Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','
   
   4- Send the encryption key to the server 
   
-  5- Encrypt files and rename them with '.encrypted' ( AES 128-bit ) 
+  5- Encrypt files and rename them with '.encrypted' 
   
   6- Change wallpaper with a dirty buffoon
   
