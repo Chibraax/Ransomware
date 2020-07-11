@@ -1,4 +1,4 @@
-<img src="https://cdn.onlinewebfonts.com/svg/img_556375.png" width="48">
+<img src="https://cdn.onlinewebfonts.com/svg/img_556375.png" width="148">
 
 
 
