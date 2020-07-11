@@ -1,4 +1,4 @@
-# Ransomware Bad Buffoon
+https://cdn.onlinewebfonts.com/svg/img_556375.png  # Ransomware Bad Buffoon
 
 Ransomware written in Python3.x
 
