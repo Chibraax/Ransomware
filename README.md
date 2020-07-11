@@ -64,3 +64,8 @@ Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','
   If encrypted files are moved or renamed, decryption will probably fail 
   
   
+# Server 
+
+  Listen for any connection 
+  
+  When a connection pop create a file with the IP target , decryption key , time
