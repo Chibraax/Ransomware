@@ -1,4 +1,4 @@
-![alt text](https://cdn.onlinewebfonts.com/svg/img_556375.png)
+<img src="https://cdn.onlinewebfonts.com/svg/img_556375.png" width="48">
 
 
 
