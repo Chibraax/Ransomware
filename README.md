@@ -32,11 +32,11 @@ Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','
   
   2- Then download images from Internet 
   
-  3- Generate the encryption key ( AES 128-bit ) 
+  3- Generate the encryption key 
   
   4- Send the encryption key to the server 
   
-  5- Encrypt files and rename them with '.encrypted'
+  5- Encrypt files and rename them with '.encrypted' ( AES 128-bit ) 
   
   6- Change wallpaper with a dirty buffoon
   
