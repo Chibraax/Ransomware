@@ -398,7 +398,7 @@ class GUI :
 
         try : 
             self.app.title('Bad Buffoon')
-            self.app.geometry('1400x900')
+            self.app.geometry('1000x700')
             self.app.resizable(width=False, height= False)
             self.app['bg'] = 'red4'
 
