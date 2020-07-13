@@ -86,7 +86,11 @@ Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','
 # If you want use this ransomware 
 
   Edit line 36 and 37 to setup the ip and port of your server  
+  
   Edit line 148 to change the directory to encrypt
+  
   Edit the 'check_files' function at line 253 
+  
   Edit line 288 
+  
   Edit line 690 to setup the direcotry to decrypt
