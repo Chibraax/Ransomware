@@ -94,3 +94,5 @@ Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','
   Edit line 288 
   
   Edit line 690 to setup the direcotry to decrypt
+  
+  Edit line 43 on server_ransomware.py to set your path 
