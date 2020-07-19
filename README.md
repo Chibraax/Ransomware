@@ -97,4 +97,4 @@ Can encrypt files with this extension : ['txt','jpg','jpeg','png','docx','doc','
   
   Edit line 43 on server_ransomware.py to set your path 
   
-  If you want to make a executable of this ransomware type : pyinstaller -w --onefile --hidden-import='pkg_resources.py2_warn'
+  If you want to make a executable of this ransomware type : pyinstaller -w --onefile --hidden-import='pkg_resources.py2_warn' ransomware.py
